@@ -1,0 +1,20 @@
+{
+    "name": "vikr/robots",
+    "description": "Parse robots.txt",
+    "type": "project",
+    "authors": [
+        {
+            "name": "VikRR",
+            "email": "rubetc.v.i@gmail.com"
+        }
+    ],
+    "require": {
+        "components/bootstrap": "^3.3",
+        "phpoffice/phpexcel": "^1.8"
+    },
+    "autoload":{
+        "psr-4":{
+            "robots\\":""
+        }
+    }
+}

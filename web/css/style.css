@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background: lightgrey;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+body {
+    color: #f90;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav {
+    display: inline-block;
+    margin: 15px 0;
+}
+
+a[href='logout'] {
+    color: #E74C3C;
+    padding: 7px 13px;
+}
+
+textarea {
+    resize: none;
+}
+
+.hello h3, .hello a, .navbar-nav > li > a {
+    font-family: 'Frijole';
+}
+
+.navbar-nav > li > a {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+ul.menu > li {
+    border: 2px solid #95A5A6;
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #95A5A6;
+    letter-spacing: .08em;
+}
+
+.nav > li > a:hover, .nav > li > a:active, .nav > li > a:focus, .active {
+    color: #fff;
+    background-color: #95A5A6;
+}
+
+.btn, .form-control {
+    font-size: 18px;
+}
+
+.block {
+    border: 1px solid #BDC3C7;
+    border-radius: 3px;
+    margin: 7px 0;
+    padding-top: 10px;
+    -webkit-box-shadow: 10px 10px 6px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 6px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 6px -8px rgba(0, 0, 0, 0.75);
+}
+
+.comment {
+    font-family: 'Lato';
+    text-align: justify;
+}
+
+.temp {
+    font-size: 30px;
+}
